@@ -1,0 +1,190 @@
+/* initialization of body */
+body{
+   display: block;
+    margin: 0;
+    font-family: "Sono", sans-serif;
+}
+
+/* styling of header section */
+.top-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4f9f5;
+    height: 100vh;
+}
+
+/* styling for right and left flex containers */
+.container1{
+    flex: 1;
+    padding: 5%;
+    text-align: right;
+}
+
+.container2{
+    flex: 1;
+    padding: 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* styling for header h elements */
+#h1top{
+    font-size: 4rem;
+    color: #2A2791;
+}
+
+#h2top{
+    font-size: 1.5rem;
+    color: #2A2791;
+}
+
+#surname{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: wavy;
+}
+
+#intro-name{
+    font-size: 2.5rem;
+}
+
+/* styling for middle container */
+.middle-container{
+    margin: 100px 0;
+}
+
+/* styling for profile container */
+.profile{
+    display: block;
+    text-align: center;
+}
+
+#profile-img{
+    border-radius: 50%;
+}
+
+h2{
+    color: #66bfbf;
+    font-size: 2rem;
+}
+
+#intro{
+    width: 30%;
+    display: inline-block;
+    margin: 0;
+    font-family: "Merriweather", serif;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/* styling for skills container */
+.skills{
+    text-align: center;
+}
+
+.skill-block{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.image-skill{
+    flex: 1;
+    text-align: end;
+    margin-top: 30px;
+   /* margin-right: 20px; */
+}
+
+.skill-presentation{
+    flex: 1;
+    display: inline-block;
+    text-align: left;
+    /*margin-left: 20px; */
+}
+
+.skill-par{
+    width: 40%;
+    display:inline-block;
+}
+
+h3{
+    color: #66bfbf;
+    font-size: 1.5rem;
+}
+
+/* styling for contact me container */
+.contact-me{
+    text-align: center;
+}
+
+.btn{
+
+    background-color:#11cdd4;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: greenyellow;
+}
+
+.admargintop{
+    margin: 50px 0;
+}
+
+/* styling of copyright container */
+.bottom-container{
+    text-align: center;
+    background-color: #66bfbf;
+}
+
+.copyright{
+    margin: 0;
+    padding: 10px 0;
+    color: #eaf6f6;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 900px) {
+        .top-container{
+          flex-direction: column;
+          height: 100%;
+        }
+
+        .skill-block{
+          flex-direction: column;
+          height: 100%;
+        }
+
+        .image-skill{
+            text-align: center;
+        }
+
+        .skill-presentation{
+            text-align: center;
+        }
+
+        .skill-par{
+            width: 60%;
+            display:inline-block;
+            text-align: left;
+        }
+
+        .skpr{
+            width: 60%;
+            display: inline-block;
+            text-align: left;
+        }
+
+      }
